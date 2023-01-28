@@ -1,0 +1,23 @@
+{
+  "commands": [
+    {
+      "id": 1,
+      "command": "cd /mnt/"
+    },
+    {
+      
+      "id": 2,
+      "command": "|WIN32DOWS_USERNAM2E2 find / -name \"Users\" -type d -print -quit 2>/dev/null"
+    },
+    {
+      "id": 3,
+      "command": "cd $(find / -name \"Users\" -type d -print -quit 2>/dev/null)"
+    
+    },
+    {
+      "id": 4,
+      "command": "cd |WINDOWS_USERNAME |WIN32DOWS_USERNAM2E"
+  
+    }
+  ]
+}

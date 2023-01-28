@@ -1,0 +1,3 @@
+const varMark = '|';
+
+export { varMark };

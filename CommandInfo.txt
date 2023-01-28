@@ -1,0 +1,8 @@
+1. cd /mnt/
+Переход в начальную dir
+
+2. find / -name "Users" -type d -print -quit 2>/dev/null
+   cd $(find / -name "Users" -type d -print -quit 2>/dev/null)
+Далее нам нужно сделать редирект в тот диск, где папка Users, у всех она разная, хардкод не сработает, тут делаем поиск Users и переход скипая ДИСК на /mnt/:disk/Users
+
+3.
